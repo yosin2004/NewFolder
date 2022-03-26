@@ -1,7 +1,7 @@
 import React from "react";
 import Bandmember from "../images/bandmember.jpg";
 
-function Hama(){
+function TourSection(){
     return(  <div
         className="w3-container w3-content w3-center w3-padding-64"
         style={{ maxWidth: 800 }}
@@ -55,4 +55,4 @@ function Hama(){
         </div>
       </div>)
 }
-export default Hama
+export default TourSection

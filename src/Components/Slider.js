@@ -1,7 +1,7 @@
 import React from "react";
 import Chicago from "../images/chicago.jpg";
 
-function Mini(){
+function Slider(){
     return( <div
         className="mySlides w3-display-container w3-center"
         style={{ display: "none" }}
@@ -15,4 +15,37 @@ function Mini(){
         </div>
       </div>)
 }
-export default Mini
+export default Slider
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

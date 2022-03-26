@@ -1,6 +1,6 @@
 import React from "react";
 
-function Pako(){
+function Email(){
     return(<div
         className="w3-container w3-content w3-padding-64"
         style={{ maxWidth: 800 }}
@@ -70,4 +70,4 @@ function Pako(){
         </div>
       </div>)
 }
-export default Pako
+export default Email

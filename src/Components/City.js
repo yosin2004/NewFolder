@@ -2,7 +2,7 @@ import React from "react"
 import Paris from "../images/paris.jpg";
 import Sanfran from "../images/sanfran.jpg";
 import Newyork from "../images/newyork.jpg";
-function Sada(){
+function City(){
     return(  <div className="w3-black" id="tour">
     <div
       className="w3-container w3-content w3-padding-64"
@@ -97,4 +97,4 @@ function Sada(){
     </div>
   </div>)
 }
-export default Sada
+export default City

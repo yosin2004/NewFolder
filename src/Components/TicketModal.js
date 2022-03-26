@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Anaha(){
+function TicketModal(){
     return( <div id="ticketModal" className="w3-modal">
     <div className="w3-modal-content w3-animate-top w3-card-4">
       <header className="w3-container w3-teal w3-center w3-padding-32">
@@ -54,4 +54,4 @@ function Anaha(){
   </div>
 )
 }
-export default Anaha
+export default TicketModal
