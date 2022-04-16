@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "./images/img.png";
+import imagee from "./images/IMAGE (2).png"
 import "./App.css"
 import image from "./images/IMAGE.png";
 import img2 from "./images/Vector (1).png"
@@ -14,21 +14,21 @@ import img10 from "./images/IMAGE (9).png"
 import img11 from "./images/IMAGE (10).png"
 import img12 from "./images/Screenshot_61.png"
 
+const array = ["Abaou","Features","Pricing", "FAQ","Feedback","Blog","Contact"]
 
 function App() {
+
 return(
  <div className="container">
-      <img className="img" src={Image} alt="" />
+      <img className="img" src={imagee} alt="" />
   <div className="navbar">
      <img  className="img2" src={image} alt=""/>
      <ul>
-       <li>About</li>
-       <li>Features</li>
-       <li>Pricing</li>
-       <li>FAQ</li>
-       <li>Feedback</li>
-       <li>Blog</li>
-       <li>Contact</li>
+       {array.map((elem, index) =>{
+         return(
+           <li key={index}>{elem}</li>
+         )
+       })}
      </ul>
   </div>
   <div className="text1">
